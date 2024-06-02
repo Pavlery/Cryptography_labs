@@ -17,5 +17,5 @@ def find_frq(file_path):
         frq = i / total_chars
         print(f"Частота появления '{char}' = {frq}")
 
-file_path = r"M:\Progs\Python\Doc\tеxt1.txt"
+file_path = "tеxt.txt"
 find_frq(file_path)
