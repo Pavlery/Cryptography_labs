@@ -19,7 +19,7 @@ def find_frq(file_path):
         chance = i / total_chars
         entropy += chance * math.log2(1 / chance)
 
-    print(f"Энтропия файла по частотам = {entropy}")
+    print(f"Энтропия файла по частотам = {entropy:.4f}")
 
-file_path = r"M:\Progs\Python\Doc\tеxt1.txt"
+file_path = "tеxt.txt"
 find_frq(file_path)
